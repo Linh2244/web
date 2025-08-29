@@ -218,7 +218,112 @@ footer {
     margin-top: 60px;
 }
 
-/* Responsive */
+.footer-wrapper {
+    background: #2c5530;
+    color: #fff;
+    text-align: center;
+    padding: 30px 0 0 0;
+    margin-top: 60px;
+}
+
+.footer-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.footer-info {
+    max-width: 600px;
+    margin: 0 auto;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-weight: bold;
+    text-shadow: 1px 1px 4px #333, 0 0 2px #993300;
+    letter-spacing: 0.5px;
+}
+
+.footer-title {
+    font-size: 1.2rem;
+    color: #fff;
+    display: block;
+    margin-bottom: 4px;
+}
+
+.footer-detail {
+    font-size: 1rem;
+    color: #fff;
+}
+
+.footer-map-link {
+    color: #ffeb3b;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.footer-map-link:hover {
+    color: #ff6b35;
+}
+
+.footer-map {
+    margin-top: 12px;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
+.footer-social {
+    margin-top: 12px;
+}
+
+.footer-social-icon {
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.absolute-footer {
+    background: #2c5530;
+    color: #fff;
+    padding: 8px 0;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-weight: bold;
+    text-shadow: 1px 1px 4px #333, 0 0 2px #993300;
+    letter-spacing: 0.5px;
+}
+
+/* Product Main Image */
+.product-main-img {
+    width: 50%;
+    height: auto;
+    border-radius: 20px;
+}
+
+/* Gallery Images */
+.gallery-img {
+    width: 280px;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 8px;
+}
+
+/* Responsive Footer */
+@media (max-width: 700px) {
+    .footer-center {
+        flex-direction: column;
+    }
+    .footer-info {
+        max-width: 100%;
+        padding: 0 10px;
+    }
+    .gallery-img {
+        width: 100%;
+        max-width: 280px;
+    }
+}
+
 @media (max-width: 768px) {
     .hero h1 { font-size: 2.2rem; }
     .hero p { font-size: 1.1rem; }
