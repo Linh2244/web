@@ -309,6 +309,45 @@ footer {
     margin: 8px;
 }
 
+/* Product Status */
+.product-status {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 16px;
+    padding: 6px 18px;
+    border-radius: 8px;
+    display: inline-block;
+}
+
+.product-status.in-stock {
+    background: #2c5530;
+    color: #fff;
+}
+
+.product-status.out-of-stock {
+    background: #ff6b35;
+    color: #fff;
+}
+
+/* Pre-order Contact */
+.pre-order-contact {
+    margin-bottom: 16px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #2c5530;
+    text-align: center;
+}
+
+.pre-order-contact a {
+    color: #ff6b35;
+    text-decoration: underline;
+    margin: 0 4px;
+}
+
+.pre-order-contact a:hover {
+    color: #e55a2b;
+}
+
 /* Responsive Footer */
 @media (max-width: 700px) {
     .footer-center {
