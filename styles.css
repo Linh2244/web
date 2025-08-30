@@ -320,13 +320,18 @@ footer {
 }
 
 .product-status.in-of-stock {
-    background: #2c5530;
-    color: #fff;
+    background: #039111;
+    color: #000000;
 }
 
 .product-status.out-of-stock {
     background: #ff6b35;
     color: #fff;
+}
+
+.product-status.coming-soon {
+    background: #ffeb3b;
+    color: #000000;
 }
 
 /* Pre-order Contact */
