@@ -319,7 +319,7 @@ footer {
     display: inline-block;
 }
 
-.product-status.in-of-stock {
+.product-status.in-stock {
     background: #039111;
     color: #000000;
 }
